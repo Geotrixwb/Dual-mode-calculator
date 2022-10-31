@@ -1,1 +1,1 @@
-# Dual-mode-calculator
+# Dual-mode-calcul
