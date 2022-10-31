@@ -1,1 +1,3 @@
-# Dual-mode-calcul
+# Dual-mode-calculator
+
+it has 2 modes
