@@ -21,7 +21,7 @@ void menu(){
         << "type r for arithmetic mode\n"
         << "type s for special math functions" //menu and options
 
-    <<std::endl;
+    << std::endl;
 }
 
 void mode1ShowText(){
