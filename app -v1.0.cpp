@@ -82,7 +82,7 @@ int main(){
             break;
 
           default:
-          HANDLE jNoOprInp = GetStdHandle(STD_OUTPUT_HANDLE);
+          HANDLE jNoOprInp = GetStdHandle(STD_OUTPUT_HANDLE); //Sets the error message text to red
           SetConsoleTextAttribute(jNoOprInp,4);
           std::cout << "Error: No operation entered or incorrect input";
        }   
@@ -115,7 +115,7 @@ int main(){
   }
 
   else {
-    HANDLE kNomode = GetStdHandle(STD_OUTPUT_HANDLE);
+    HANDLE kNomode = GetStdHandle(STD_OUTPUT_HANDLE); 
       SetConsoleTextAttribute(kNomode,4);
       std::cout << "Error: No mode selected";
   }    
